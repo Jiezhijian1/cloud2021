@@ -1,13 +1,13 @@
-package com.qcj.springcloud.controller;
+package springcloud.controller;
 
 import com.qcj.springcloud.entities.CommonResult;
 import com.qcj.springcloud.entities.Payment;
-import com.qcj.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
+import springcloud.service.PaymentService;
 
 import javax.annotation.Resource;
 import java.util.List;
