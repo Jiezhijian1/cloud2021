@@ -22,4 +22,6 @@ public class OrderConsulController {
     public CommonResult<Payment> create(Payment payment){
         return restTemplate.postForObject(PAYMENT_URL+"/payment/consul",payment, CommonResult.class);
     }
+
+
 }
